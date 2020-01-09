@@ -1,4 +1,4 @@
-##Simple Pokemon fight game project##
+## Simple Pokemon fight game project
 **This project was written as one of the tasks for Advanced JS course (In CodeAcademy). It is written in Vanilla JavaScript.**
 
 **Some points on project:**
@@ -11,7 +11,7 @@
 - When your stats reach certain point, your pokemon gets level upgrade.
 - When leveling up, amount of exp points to upgrade a stat, increases.
 
-###To Do List###
+### To Do List
 - [ ] Running on node.js server;
 - [ ] Clean directory and file structure;
 - [ ] Responsive design;
