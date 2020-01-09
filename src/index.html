@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/pokemon-card.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <h1>GAME ON</h1>
+
+        <section id="event-log-area"></section>
+
+        <div id="player-display" class="hide"></div>
+
+        <form id="nickname-form">
+            <label for="nickname">Nickname:</label>
+            <input id="nickname" name="nickname" type="text" placeholder="Enter your nickname" />
+            <button type="submit" id="submit-player">Save</button>
+        </form>
+
+        <div id="pokemon-table" class="pokemon-table"></div>
+
+        <div id="pokemon-overview" class="hide"></div>
+
+        <section id="fight-area" class="hide">
+            <div id="enemy-card-box"></div>
+            <div id="my-pokemon-card-box"></div>
+            <button id="fight-btn">Make Them Fight</button>
+
+        </section>
+
+    </div>
+
+    <script src="pokemonList.js"></script>
+    <script src="index.js"></script>
+    <script src="upgrade.js"></script>
+    <script src="js/math.js"></script>
+    <script src="generateEnemy.js"></script>
+</body>
+
+</html>

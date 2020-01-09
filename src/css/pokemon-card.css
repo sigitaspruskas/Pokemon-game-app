@@ -1,0 +1,72 @@
+.pokemon-card {
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 6px;
+    width: 200px;
+    padding: 5px;
+    text-align: center;
+    margin: 0 0 5px 0;
+}
+
+.pokemon-card-name {
+    text-align: center;
+    background-color: #71a0a5;
+    padding: 5px 0;
+    margin: 0 0 5px -5px;
+    width: 310px;
+    
+    box-shadow: inset 0px 0px 2px 1px rgba(0, 0, 0, 0.75);
+}
+
+.pokemon-card-picture {
+    text-align: center;
+}
+
+.pokemon-card-stat {
+    padding-top: 5px;
+    border-bottom: 1px solid black;
+    text-align: left;
+}
+
+.pokemon-card-picture img {
+    max-width: 100%;
+    height: 110px;
+}
+
+.pokemon-overview-card, #enemy-card-box, #my-pokemon-card-box {
+    border-radius: 6px;
+    border: 5px solid black;
+    margin-bottom: 5px;
+    background-color: #ffe3b0;
+    padding: 5px;
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.75);
+}
+
+#pokemon-overview {
+    display: inline-block;
+    text-align: center;
+}
+
+.pokemon-overview-card {
+    width: 320px;
+}
+
+#enemy-card-box, #my-pokemon-card-box {
+    display: inline-block;
+    width: 260px;
+}
+
+#enemy-card-box .pokemon-card-name, #my-pokemon-card-box .pokemon-card-name {
+    margin: 0 0 5px -5px;
+    width: 250px;
+}
+
+#fight-area{
+    margin-top: 10px;
+    text-align:center;
+}
+
+#fight-area button{
+    margin: 0 auto;
+    display: block;
+}
